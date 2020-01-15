@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "narcissus"
+version = "0.1.0"
+description = "MagicMirror AI"
+authors = ["Shivelight <cwkfr@protonmail.com>"]
+license = "MPL-2.0"
+
+  [tool.poetry.dependencies]
+  python = "^3.7"
+  PyAudio = "^0.2.11"
+  requests = "^2.22.0"
+  wit = "^5.1.0"
+  pydub = "^0.23.1"
+  gtts = "^2.1.0"
+  speechrecognition = "^3.8.1"
+  opencv-python = "^4.1.2"
+  simplenlg = "^0.2.0"
+
+  [tool.poetry.dev-dependencies]
+  black = "^19.10b0"
+  mypy = "^0.761"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
