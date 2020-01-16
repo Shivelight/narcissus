@@ -1,7 +1,9 @@
 # Narcissus
 
 COMP6065 (Artificial Intelligence) Group Project
+
 Class: LN01
+
 Group: snake_case
 
 ## Installation
@@ -15,15 +17,17 @@ Group: snake_case
 
 ### Installing
 
-The best way to install Narcissus is using virtual environtment
+The best way to install Narcissus is using virtual environment
 
 ```
 pip install .
 ```
 
-### Running
+Copy directories inside `MMM-narcissus` to MagicMirror/modules and `config.js` to MagicMirror/config.
 
-Make sure MagicMirror is running before running Narcissus
+### Starting
+
+Make sure MagicMirror is running before starting Narcissus
 
 ```
 export WIT_AI_TOKEN=wit_ai_token
@@ -35,7 +39,7 @@ python -m narcissus
 - Bot Appearance
 
 	- Who are you?
-    - What do you look like
+	- What do you look like
 
 - Bot Personal Status
 
